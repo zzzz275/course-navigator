@@ -1,14 +1,3 @@
-# .github/workflows/manual.yml
-name: Manual Workflow
-on:
-  workflow_dispatch: # 启用手动触发
-
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run manual task
-        run: echo "Workflow triggered manually by ${{ github.actor }}"
 name: iOS starter workflow
 
 on:
